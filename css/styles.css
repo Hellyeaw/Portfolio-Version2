@@ -1,0 +1,405 @@
+body {
+  margin: 0;
+}
+
+hr {
+  margin: auto;
+  color: white;
+  border-color: #ea97ad;
+  border-width: 0.3125rem;
+  border-style: dotted none none;
+  width: 7%;
+  margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
+}
+
+.section {
+  padding-top: 40px;
+  background-color: #edffea;
+}
+
+p {
+  margin: auto 1.25rem;
+  text-align: center;
+  line-height: 2.5;
+  font-family: 'Yusei Magic',cursive;
+  color: #393e46;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #ecb390;
+  padding: 5px 15px 5px;
+}
+
+#top-links, #top-links-two {
+  margin: auto 5px;
+  color: #cc7351;
+  text-decoration: none;
+  font-family: 'Yusei Magic',cursive;
+  font-size: 18px;
+}
+
+.top-links:hover {
+  color: #2c061f;
+}
+
+#nav-item, #nav-item-two {
+  background-color: #f1ae89;
+}
+
+.logo {
+  margin: auto 12px auto 15px;
+  height: 30px;
+  transition: transform .1s;
+}
+
+.logo:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+
+/* First Container */
+
+.first-container {
+  background-color: #ccedd2;
+  padding: 8% 26% 1%;
+  margin: auto;
+  margin-bottom: 2.5rem;
+}
+
+.name {
+  font-family: 'Sacramento', cursive;
+  font-weight: bold;
+  font-size: 3.75rem;
+  margin-bottom: 0;
+  color: #557174;
+}
+
+.student {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: #393e46;
+  padding-bottom: 15%;
+}
+
+.design {
+  font-family: 'Yusei Magic',cursive;
+  font-weight: bolder;
+}
+
+.pic {
+  height: 8.125rem;
+  padding-top: 0.9375rem;
+}
+
+.rightd {
+  height: 6.25rem;
+}
+
+.leftd {
+  height: 6.25rem;
+}
+
+
+/* Second Container */
+
+.second-container {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fcf8e8;
+}
+
+.my-pic {
+  height: 12.5rem;
+  margin: 1.75rem auto 0.75rem;
+}
+
+.about-me {
+  padding: 3% 15% 2%;
+}
+
+.intro-text {
+  line-height: 2.5;
+  font-size: 1.1rem;
+}
+
+.more {
+  padding: 5% 14% 0;
+  font-size: 0.9rem;
+  line-height: 2;
+}
+
+.btn {
+   -webkit-border-radius: 72px;
+   -moz-border-radius: 72px;
+   border-radius: 72px;
+   color: #cc7351;
+   font-family: 'Yusei Magic',cursive;
+   font-size: 12px;
+   padding: 10px;
+   background-color: #ecb390;
+   border: solid #e08f62 2px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+    color: #fcf8e8;
+   background-color: #df7861;
+   border: solid #e08f62 2px;
+   -webkit-border-radius: 72px;
+   -moz-border-radius: 72px;
+   border-radius: 72px;
+   text-decoration: none;
+}
+
+.grades {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px auto 20px;
+}
+
+.letter {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 5px 0 20px 52px;
+}
+
+.CV {
+  margin: 5px 0 20px 50px;
+}
+
+
+/* Third Container */
+
+.third-container {
+  padding-top: 0.9375rem;
+  padding-bottom: 0.625rem;
+  background-color: #edffea;
+}
+
+.work {
+  color: #7c9473;
+  font-family: 'Yusei Magic',cursive;
+  font-weight: lighter;
+  padding-bottom: 0.625rem;
+  padding-top: 3%;
+}
+
+#pixel{
+  border-color: #c7cfb7;
+  color: #edffea;
+  border-style: dashed none none;
+  width: 68%;
+  padding-bottom: 1.25rem;
+}
+
+/* work sub */
+
+.work-section{
+  width: 70%;
+  margin: 1.875rem auto 5.625rem auto;
+  text-align: left;
+}
+
+.top {
+  margin-top: 0.625rem;
+  margin-bottom: 1.3125rem;
+  text-align: center;
+  font-family: 'Yusei Magic',cursive;
+  font-weight: lighter;
+  color: #ecb390;
+  font-size: 1.6875rem;
+}
+
+.introduction {
+  padding-bottom: 2rem;
+}
+
+.introduction-r {
+  padding-bottom: 3.3rem;
+}
+
+.c-head {
+  font-family: 'Yusei Magic',cursive;
+  font-weight: lighter;
+  color: #939b62;
+  font-size: 1.25rem;
+}
+
+.context {
+  line-height: 2;
+  text-align: left;
+}
+
+.col-lg-6 {
+  padding: 2.5rem 0;
+}
+
+/* right side */
+
+.right-pic {
+  width: 75%;
+  cursor: zoom-in;
+  animation-iteration-count: infinite;
+  margin-left: 1.75rem;
+  transition: transform .1s;
+}
+
+.right-pic:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.right-intro {
+  line-height: 2;
+  text-align: left;
+  padding-bottom: 5.3125rem;
+  padding-top: 5.3125rem;
+}
+
+
+/* Left Side */
+
+.left-intro {
+  line-height: 2;
+  text-align: left;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
+  margin-left: 1.8rem;
+}
+
+.left-pic {
+  width: 77%;
+  cursor: zoom-in;
+  animation-iteration-count: infinite;
+  margin-left: 1.8rem;
+  margin-top: 3.125rem;
+  transition: transform .1s;
+}
+
+.left-pic:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+/* extras */
+
+#poison {
+  margin-top: 3.3rem;
+}
+
+#magelf {
+  margin-top: 1.75rem;
+}
+
+#flower-crown {
+  margin-top: 3.1rem;
+}
+
+#margin-sky {
+  margin-top: 3.1rem;
+}
+
+#doll {
+  margin-top: 5rem;
+}
+
+.kk {
+  padding-left: 20px;
+}
+
+.kamyar {
+  color: Red;
+}
+
+#scarf {
+  margin-top: 4.5rem;
+}
+
+#top {
+  margin-top: 4.5rem;
+}
+
+#anatomy {
+  margin-top: 2.5rem;
+}
+
+#perspective {
+  margin-top: 3.8rem;
+}
+
+#bugs {
+  margin-top: 2rem;
+}
+
+#texture {
+  margin-top: 2.3rem;
+}
+
+.last {
+  margin: 70px auto;
+}
+
+
+/* Footer */
+
+.fab {
+  margin: 5px;
+}
+
+.fab-email {
+  margin: auto 6px;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 3.125rem;
+  background-color: #ecb390;
+  padding: 0.4375rem;
+  font-family: 'Yusei Magic',cursive;
+  font-size: 0.875rem;
+}
+
+.footer-link {
+  color: #cc7351;
+  text-decoration: none;
+  padding: 0.625rem;
+}
+
+.footer-link:hover {
+  color: #2c061f;
+}
+
+.copyright {
+  color: #cc7351;
+  size: 0.4375rem;
+  padding-top: 0;
+  padding-bottom: 0.1875rem;
+}
+
+.flaticon {
+  text-align: center;
+  padding-bottom: 0.4375rem;
+  padding-top: 0;
+  size: 0.625rem;
+  color: #cc7351;
+  text-decoration: none;
+}
+
+.flaticon-h {
+  color: #cc7351;
+  text-decoration: none;
+}
+
+.flaticon-h:hover {
+  color: #2c061f;
+}

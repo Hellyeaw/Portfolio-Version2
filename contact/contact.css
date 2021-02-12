@@ -1,0 +1,187 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  padding-bottom: 2.5rem;
+}
+
+p {
+  margin: auto 1.25rem;
+  text-align: center;
+  line-height: 2.5;
+  font-family: 'Yusei Magic',cursive;
+  color: #393e46;
+}
+
+hr {
+  margin: auto;
+  color: white;
+  border-color: #ea97ad;
+  border-width: 0.3125rem;
+  border-style: dotted none none;
+  width: 7%;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+
+/* Navbar */
+
+.navbar {
+  background-color: #ecb390;
+  padding: 5px 15px 5px;
+}
+
+#top-links, #top-links-two {
+  margin: auto 5px;
+  color: #cc7351;
+  text-decoration: none;
+  font-family: 'Yusei Magic',cursive;
+  font-size: 18px;
+}
+
+.top-links:hover {
+  color: #2c061f;
+}
+
+#nav-item, #nav-item-two {
+  background-color: #f1ae89;
+}
+
+.logo {
+  margin: auto 12px auto 15px;
+  height: 30px;
+  transition: transform .1s;
+}
+
+.logo:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+
+/* First Container */
+
+.first-container {
+  padding: 10% 26% 10%;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-family:'Yusei Magic',cursive;
+  background-color: #effcef;
+}
+
+.facebook {
+  text-decoration: none;
+  margin: auto 1.25rem;
+  text-align: center;
+  line-height: 2;
+  font-family: 'Yusei Magic',cursive;
+  color: #16c79a;
+}
+
+.facebook:hover {
+  color: #ffb26b;
+}
+
+/* Second Container */
+
+.second-container {
+  background-color: #fcf8e8;
+  padding-top: 7.375rem;
+  padding-bottom: 7.375rem;
+  font-family:'Yusei Magic',cursive;
+}
+
+.sub-container {
+  text-align: center;
+  width: 40%;
+  margin: 0.125rem auto;
+}
+
+.input-group-text {
+  background-color: #edcfa9;
+  border-color: #edcfa9;
+}
+
+.form-control {
+  border-color: #edcfa9;
+}
+
+.btn {
+   -webkit-border-radius: 72px;
+   -moz-border-radius: 72px;
+   border-radius: 72px;
+   color: #cc7351;
+   font-family: 'Yusei Magic',cursive;
+   font-size: 13px;
+   font-weight: 100;
+   padding: 9px;
+   background-color: #ecb390;
+   border: solid #e08f62 2px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.btn:hover {
+    color: #fcf8e8;
+   background: #df7861;
+   border: solid #e08f62 2px;
+   -webkit-border-radius: 72px;
+   -moz-border-radius: 72px;
+   border-radius: 72px;
+   text-decoration: none;
+}
+
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  margin-top: 3.125rem;
+  background-color: #ecb390;
+  padding: 0.4375rem;
+  font-family: 'Yusei Magic',cursive;
+  font-size: 0.875rem;
+}
+
+.footer-link {
+  color: #cc7351;
+  text-decoration: none;
+  padding: 0.625rem;
+}
+
+.footer-link:hover {
+  color: #2c061f;
+}
+
+.copyright {
+  color: #cc7351;
+  size: 0.4375rem;
+  padding-top: 0;
+  padding-bottom: 0.1875rem;
+}
+
+.flaticon {
+  text-align: center;
+  padding-bottom: 0.4375rem;
+  padding-top: 0;
+  size: 0.625rem;
+  color: #cc7351;
+  text-decoration: none;
+}
+
+.flaticon-h {
+  color: #cc7351;
+  text-decoration: none;
+}
+
+.flaticon-h:hover {
+  color: #2c061f;
+}

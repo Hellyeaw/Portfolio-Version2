@@ -1,0 +1,180 @@
+body {
+margin: 0;
+}
+
+hr {
+  margin: auto;
+  color: white;
+  border-color: #ea97ad;
+  border-width: 0.3125rem;
+  border-style: dotted none none;
+  width: 7%;
+  margin-bottom: 2.5rem;
+  margin-top: 2.5rem;
+}
+
+h1 {
+  font-weight: lighter;
+  margin-bottom: 0;
+  color: #557174;
+}
+
+p {
+  margin: auto 1.25rem;
+  text-align: center;
+  line-height: 2.5;
+  font-family: 'Yusei Magic',cursive;
+  color: #393e46;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #ecb390;
+  padding: 5px 15px 5px;
+}
+
+#top-links, #top-links-two {
+  margin: auto 5px;
+  color: #cc7351;
+  text-decoration: none;
+  font-family: 'Yusei Magic',cursive;
+  font-size: 18px;
+}
+
+.top-links:hover {
+  color: #2c061f;
+}
+
+#nav-item, #nav-item-two {
+  background-color: #f1ae89;
+}
+
+.logo {
+  margin: auto 12px auto 15px;
+  height: 30px;
+  transition: transform .1s;
+}
+
+.logo:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+
+/* Body */
+
+.first-h {
+  margin-top: 100px;
+}
+
+
+.container-one {
+  padding-top: 3.125rem;
+  font-family: 'Yusei Magic',cursive;
+  background-color: #fff3e6;
+}
+
+
+.box-one {
+  margin-left: 9.25rem;
+  color: #ecb390;
+  font-family: 'Yusei Magic',cursive;
+  font-weight: lighter;
+  padding-bottom: 2.5rem;
+}
+
+.pdf {
+  text-align: left;
+  text-decoration: none;
+  font-family: 'Yusei Magic',cursive;
+  color: #cc7351;
+  margin-left: 0;
+  margin-top: 0;
+  font-size: 0.8125rem;
+}
+
+.pdf:hover {
+  color: #ecb390;
+}
+
+.list {
+  line-height: 5;
+  margin-left: 1.875rem;
+}
+
+ol {
+  font-size: 1.125rem;
+}
+
+.aa {
+  text-decoration: none;
+  color: #cc7351;
+  font-size: 1.125rem;
+}
+
+.bb {
+  font-size: 1rem;
+  color: #393e46;
+}
+
+.cc {
+  text-decoration: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 3;
+  list-style-type: disc;
+}
+
+.aa:hover {
+  color: #ecb390;
+}
+
+
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  margin-top: 3.125rem;
+  background-color: #ecb390;
+  padding: 0.4375rem;
+  font-family: 'Yusei Magic',cursive;
+  font-size: 0.875rem;
+}
+
+.footer-link {
+  color: #cc7351;
+  text-decoration: none;
+  padding: 0.625rem;
+}
+
+.footer-link:hover {
+  color: #2c061f;
+}
+
+.copyright {
+  color: #cc7351;
+  size: 0.4375rem;
+  padding-top: 0;
+  padding-bottom: 0.1875rem;
+}
+
+.flaticon {
+  text-align: center;
+  padding-bottom: 0.4375rem;
+  padding-top: 0;
+  size: 0.625rem;
+  color: #cc7351;
+  text-decoration: none;
+}
+
+.flaticon-h {
+  color: #cc7351;
+  text-decoration: none;
+}
+
+.flaticon-h:hover {
+  color: #2c061f;
+}
